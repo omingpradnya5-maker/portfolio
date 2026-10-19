@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO / Open Graph -->
+  <meta name="description" content="Portfolio pribadi I Komang Pradnya Wiryatama — Full-Stack Web Developer (Laravel, Next.js, PostgreSQL). Anggota Central Saga, Indonesia." />
+  <meta name="author" content="I Komang Pradnya Wiryatama" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="I Komang Pradnya Wiryatama | Portfolio" />
+  <meta property="og:description" content="Full-Stack Web Developer — Laravel, Next.js, PostgreSQL. Membangun sistem informasi bisnis yang praktis." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/333160777?v=4" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="#0b1020" />
+
+  <!-- Favicon (SVG inline) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234f8cff'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='800' fill='%23061024' text-anchor='middle'%3EIPW%3C/text%3E%3C/svg%3E" />
+
+  <title>I Komang Pradnya Wiryatama | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="top">
+    <a class="brand" href="#top">
+      <span class="brand-initials">IP</span>
+      <span class="brand-name">I Komang P. W.</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+      <a class="btn btn-sm" href="https://github.com/omingpradnya5-maker" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <img class="hero-avatar" src="https://avatars.githubusercontent.com/u/333160777?v=4&size=320"
+           alt="Foto profil I Komang Pradnya Wiryatama" width="132" height="132" loading="eager" />
+      <p class="hero-kicker">Halo, saya</p>
+      <h1 class="hero-title">I Komang Pradnya<br /><span class="accent">Wiryatama</span></h1>
+      <p class="hero-sub">
+        <strong>Full-Stack Web Developer</strong> dari Indonesia — membangun sistem informasi
+        bisnis end-to-end dengan <strong>Laravel</strong> di backend dan <strong>Next.js</strong>
+        di frontend. Aktif bersama komunitas <a href="https://github.com/Central-Saga" target="_blank" rel="noopener">Central&nbsp;Saga</a>.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">Lihat Proyek</a>
+        <a class="btn btn-ghost" href="#contact">Hubungi Saya</a>
+      </div>
+      <p class="hero-meta"><code>github.com/omingpradnya5-maker</code></p>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <h2 class="section-title"><span class="num">01.</span> Tentang Saya</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Saya <strong>I Komang Pradnya Wiryatama</strong>, developer Indonesia yang fokus pada
+          pengembangan aplikasi web <em>full-stack</em>. Di komunitas
+          <a href="https://github.com/Central-Saga" target="_blank" rel="noopener">Central Saga</a>
+          saya terlibat membangun berbagai sistem informasi nyata: e-commerce, kepegawaian,
+          inventori, manajemen kontrak klien, hingga sistem monitoring infrastruktur.
+        </p>
+        <p>
+          Saya terbiasa mengerjakan proyek dari sisi <strong>API &amp; basis data</strong>
+          (Laravel + PostgreSQL + Redis) sampai <strong>antarmuka pengguna</strong>
+          (Next.js/React + TypeScript), termasuk deployment dan automasi dengan container.
+        </p>
+        <ul class="about-facts">
+          <li>📍 Domisili: <em>Indonesia</em></li>
+          <li>💼 Komunitas: <em>Central Saga (github.com/Central-Saga)</em></li>
+          <li>🌱 Fokus: <em>Laravel · Next.js · PostgreSQL · Redis · Podman</em></li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <div class="about-card-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="about-card-title">quick-facts.json</span>
+        </div>
+<pre class="about-code">{
+  "name": "I Komang Pradnya Wiryatama",
+  "github": "omingpradnya5-maker",
+  "role": "Full-Stack Web Developer",
+  "community": "Central Saga",
+  "location": "Indonesia",
+  "stack": ["PHP / Laravel", "Next.js / TypeScript", "PostgreSQL", "Redis"],
+  "openToWork": true
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <h2 class="section-title"><span class="num">02.</span> Keahlian</h2>
+    <p class="section-lead">Diurutkan dari bahasa &amp; teknologi yang benar-benar dipakai di proyek-proyek saya.</p>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <h3>Languages</h3>
+        <div class="chips">
+          <span>PHP</span><span>JavaScript</span><span>TypeScript</span><span>Java</span><span>SQL</span><span>HTML/CSS</span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <h3>Backend &amp; Data</h3>
+        <div class="chips">
+          <span>Laravel</span><span>CodeIgniter</span><span>Blade</span><span>REST API</span><span>PostgreSQL</span><span>Redis</span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <h3>Frontend</h3>
+        <div class="chips">
+          <span>Next.js</span><span>React</span><span>TypeScript</span><span>Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <h3>Tools &amp; DevOps</h3>
+        <div class="chips">
+          <span>Git / GitHub</span><span>Podman</span><span>Linux</span><span>Makefile</span><span>CI/CD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <h2 class="section-title"><span class="num">03.</span> Proyek Pilihan</h2>
+    <p class="section-lead">Diarahkan dari repository publik saya dan komunitas Central Saga.</p>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-head">
+          <span class="project-icon">🗓️</span>
+          <div class="project-links">
+            <a href="https://github.com/omingpradnya5-maker/prd-timesheet-billing" target="_blank" rel="noopener" aria-label="Lihat di GitHub">⌘</a>
+          </div>
+        </div>
+        <h3>PRD Timesheet &amp; Billing</h3>
+        <p>
+          Product Requirement Document lengkap untuk sistem pencatatan jam kerja proyek:
+          timesheet, approval berlapis, rate card, dan invoice otomatis.
+        </p>
+        <div class="chips chips-sm">
+          <span>PRD</span><span>Product Design</span><span>Billing</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <span class="project-icon">🌐</span>
+          <div class="project-links">
+            <a href="https://github.com/Central-Saga/ecommerce-hexadigital" target="_blank" rel="noopener" aria-label="Lihat di GitHub">⌘</a>
+          </div>
+        </div>
+        <h3>E-Commerce Hexa Digital</h3>
+        <p>
+          Sistem informasi e-commerce Hexa Digital berbasis CodeIgniter — katalog, transaksi,
+          dan pengelolaan pesanan toko online.
+        </p>
+        <div class="chips chips-sm">
+          <span>PHP</span><span>CodeIgniter</span><span>E-Commerce</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <span class="project-icon">🎓</span>
+          <div class="project-links">
+            <a href="https://github.com/Central-Saga/sik-shineeducationbali" target="_blank" rel="noopener" aria-label="Lihat di GitHub">⌘</a>
+          </div>
+        </div>
+        <h3>Shine Education Bali</h3>
+        <p>
+          Suite sistem informasi lembaga pendidikan multi-repo: kepegawaian (Laravel),
+          backend API, dashboard, landing page (Next.js), dan infrastruktur.
+        </p>
+        <div class="chips chips-sm">
+          <span>Laravel</span><span>Next.js</span><span>Multi-repo</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <span class="project-icon">🤝</span>
+          <div class="project-links">
+            <a href="https://github.com/Central-Saga/kontrak-central-saga" target="_blank" rel="noopener" aria-label="Lihat di GitHub">⌘</a>
+          </div>
+        </div>
+        <h3>Manajemen Kontrak Klien</h3>
+        <p>
+          Sistem informasi manajemen kontrak klien PT Central Saga Mandala —
+          pencatatan kontrak, masa berlaku, dan dokumen klien dalam satu tempat.
+        </p>
+        <div class="chips chips-sm">
+          <span>JavaScript</span><span>Business System</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <span class="project-icon">📦</span>
+          <div class="project-links">
+            <a href="https://github.com/Central-Saga/aria-caspira" target="_blank" rel="noopener" aria-label="Lihat di GitHub">⌘</a>
+          </div>
+        </div>
+        <h3>Sistem Inventori Aria Caspira</h3>
+        <p>
+          Sistem informasi pengelolaan inventori berbasis web untuk optimalasi persediaan
+          produk perusahaan Aria Caspira (Laravel Blade).
+        </p>
+        <div class="chips chips-sm">
+          <span>Laravel</span><span>Inventory</span><span>Reporting</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <span class="project-icon">🛡️</span>
+          <div class="project-links">
+            <a href="https://github.com/omingpradnya5-maker/Rangga-Sistem-Monitoring-Domain-Hosting-SSL" target="_blank" rel="noopener" aria-label="Lihat di GitHub">⌘</a>
+          </div>
+        </div>
+        <h3>Monitoring Domain, Hosting &amp; SSL</h3>
+        <p>
+          Sistem monitoring status domain, hosting, dan sertifikat SSL —
+          memantau masa berlaku dan memberi peringatan sebelum kedaluwarsa.
+        </p>
+        <div class="chips chips-sm">
+          <span>Monitoring</span><span>DevOps</span><span>Automation</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-center" id="contact">
+    <h2 class="section-title"><span class="num">04.</span> Mari Terhubung</h2>
+    <p class="section-lead">
+      Terbuka untuk kolaborasi, proyek freelance, dan peluang kerja.
+      Cara tercepat menghubungi saya adalah melalui GitHub.
+    </p>
+    <div class="hero-actions hero-actions-center">
+      <a class="btn" href="https://github.com/omingpradnya5-maker" target="_blank" rel="noopener">🐙 GitHub Saya</a>
+      <a class="btn btn-ghost" href="https://github.com/Central-Saga" target="_blank" rel="noopener">Komunitas Central Saga</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/omingpradnya5-maker" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/omingpradnya5-maker?tab=repositories" target="_blank" rel="noopener">Repositories</a>
+      <a href="https://github.com/Central-Saga" target="_blank" rel="noopener">Central Saga</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Dirancang &amp; dibangun oleh <strong>I Komang Pradnya Wiryatama</strong> © 2026</p>
+    <a href="#top">↑ Kembali ke atas</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
